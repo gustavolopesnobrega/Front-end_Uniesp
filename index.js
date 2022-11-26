@@ -31,13 +31,7 @@ function enviar() {
         
         console.log(aluno) 
     }
-    // if (document.querySelector(".nome-form").value == ""){
-    //     alert("Campo NOME obrigatorio")
-    // }else if (document.querySelector(".idade-form").value == ""){
-    //     alert("Campo IDADE obrigatorio.")
-    // }else{
-    //     alert("Formulario enviado com sucesso")
-    // }
+    
     
 }
 console.log(alunos)
