@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="formulario">
+      
+
+      <label for="">Nome:</label>
+      <input
+        class="nome-form"
+        type="text"
+        value=""
+        placeholder="Digite o nome:"
+        
+      />
+      <p id="alerta-nome"></p>
+
+      <label for="">Idade:</label>
+      <input
+        class="idade-form"
+        type="text"
+        value=""
+        placeholder="Digite sua idade:"
+        
+      />
+      <p id="alerta-idade"></p>
+
+      <label for="">E-mail:</label>
+      <input
+        class="email-form"
+        type="email"
+        value=""
+        placeholder="Digite o E-mail:"
+        
+        
+      />
+      <p id="alerta-email"></p>
+
+      <label for="">Maior Idade:</label>
+      <input id="radiobox" class="maiorIdade" type="radio"  unchecked/>
+
+      <label for="">Deseja receber newsletter:</label>
+      <input id="checkbox" class="newsletter" type="checkbox" unchecked />
+
+      <label for="msg-txt">Mensagem:</label>
+      <textarea
+        class="msg-txt"
+        value=""
+        placeholder="digite a mensagem:"
+        name="msg-txt"
+        id="msg-text"
+        cols="30"
+        rows="20"
+      ></textarea>
+      <p id="alerta-msg"></p>
+
+      <div class="btns">
+        <button id="btn-enviar" class="btn-enviar" onclick="enviar()" >Enviar</button>
+        <button class="btn-limpar" onclick="limpar()">Limpar</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
