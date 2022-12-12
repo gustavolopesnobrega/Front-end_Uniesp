@@ -5,12 +5,18 @@ let alunos = []
 
 function enviar() {
 
+    
+    
+    
     if (document.querySelector(".nome-form").value == "" || document.querySelector(".idade-form").value == "" || document.querySelector(".email-form").value == ""){
         alert("Preencha todos os campos(Nome, Idade, E-mail)")
-    }else {
+    }
+    
+    else {
         let aluno = {}
 
-        
+
+
         aluno.nome = document.querySelector(".nome-form").value
         aluno.idade = parseInt(document.querySelector(".idade-form").value)
         aluno.email = document.querySelector(".email-form").value
@@ -28,8 +34,13 @@ function enviar() {
         
         alunos.push(aluno)
 
+    
+    
+
         
-        console.log(aluno) 
+        console.log(aluno)
+        alert("Enviado com sucesso") 
+        limpar()
     }
     
     
